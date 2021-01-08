@@ -1,0 +1,141 @@
+2021/01/05 17:46:03 [error] [php] mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() (D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php:67)
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\xampp\htdocs\framework\web\CController.php(286): SiteController->runAction()
+#2 D:\xampp\htdocs\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 D:\xampp\htdocs\framework\web\CWebApplication.php(282): SiteController->run()
+#4 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\xampp\htdocs\testingYii\index.php(13): CWebApplication->run()
+REQUEST_URI=/testingYii/index.php?r=site/contact
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (67)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/06 18:04:31 [error] [php] file_put_contents(/testingYii\data1.txt): failed to open stream: No such file or directory (D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php:70)
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\xampp\htdocs\framework\web\CController.php(286): SiteController->runAction()
+#2 D:\xampp\htdocs\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 D:\xampp\htdocs\framework\web\CWebApplication.php(282): SiteController->run()
+#4 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\xampp\htdocs\testingYii\index.php(13): CWebApplication->run()
+REQUEST_URI=/testingYii/index.php?r=site/contact
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (70)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/06 18:05:29 [error] [php] file_put_contents(/testingYii/data1.txt): failed to open stream: No such file or directory (D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php:71)
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\xampp\htdocs\framework\web\CController.php(286): SiteController->runAction()
+#2 D:\xampp\htdocs\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 D:\xampp\htdocs\framework\web\CWebApplication.php(282): SiteController->run()
+#4 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\xampp\htdocs\testingYii\index.php(13): CWebApplication->run()
+REQUEST_URI=/testingYii/index.php?r=site/contact
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (71)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/07 17:42:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "test/eleven". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('test/eleven')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\testingYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testingYii/index.php?r=test/eleven
+HTTP_REFERER=http://localhost/testingYii/index.php?r=site/contact
+---
+2021/01/08 12:33:18 [warning] [application] Failed to set unsafe attribute "subject" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/08 12:33:18 [warning] [application] Failed to set unsafe attribute "body" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/08 12:33:29 [warning] [application] Failed to set unsafe attribute "subject" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/08 12:33:29 [warning] [application] Failed to set unsafe attribute "body" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/08 12:36:03 [warning] [application] Failed to set unsafe attribute "subject" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/08 12:36:03 [warning] [application] Failed to set unsafe attribute "body" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/08 12:36:11 [warning] [application] Failed to set unsafe attribute "subject" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/08 12:36:11 [warning] [application] Failed to set unsafe attribute "body" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/08 12:36:47 [warning] [application] Failed to set unsafe attribute "subject" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/08 12:36:47 [warning] [application] Failed to set unsafe attribute "body" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/08 12:38:03 [warning] [application] Failed to set unsafe attribute "subject" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/08 12:38:03 [warning] [application] Failed to set unsafe attribute "body" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/08 12:40:12 [warning] [application] Failed to set unsafe attribute "subject" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/08 12:40:12 [warning] [application] Failed to set unsafe attribute "body" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/08 12:41:09 [warning] [application] Failed to set unsafe attribute "subject" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/08 12:41:09 [warning] [application] Failed to set unsafe attribute "body" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/08 12:41:16 [warning] [application] Failed to set unsafe attribute "subject" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/08 12:41:16 [warning] [application] Failed to set unsafe attribute "body" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/08 12:41:21 [warning] [application] Failed to set unsafe attribute "subject" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/08 12:41:21 [warning] [application] Failed to set unsafe attribute "body" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/08 12:41:34 [warning] [application] Failed to set unsafe attribute "subject" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/08 12:41:34 [warning] [application] Failed to set unsafe attribute "body" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/08 12:41:40 [warning] [application] Failed to set unsafe attribute "subject" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/08 12:41:40 [warning] [application] Failed to set unsafe attribute "body" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/08 12:42:34 [warning] [application] Failed to set unsafe attribute "subject" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/08 12:42:34 [warning] [application] Failed to set unsafe attribute "body" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/08 12:43:02 [warning] [application] Failed to set unsafe attribute "subject" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/08 12:43:02 [warning] [application] Failed to set unsafe attribute "body" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/08 12:43:16 [warning] [application] Failed to set unsafe attribute "subject" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/08 12:43:16 [warning] [application] Failed to set unsafe attribute "body" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/08 12:43:21 [warning] [application] Failed to set unsafe attribute "subject" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)
+2021/01/08 12:43:21 [warning] [application] Failed to set unsafe attribute "body" of "ContactForm".
+in D:\xampp\htdocs\testingYii\protected\controllers\SiteController.php (58)
+in D:\xampp\htdocs\testingYii\index.php (13)

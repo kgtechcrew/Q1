@@ -2,9 +2,9 @@
 
 ## Contact Form
 
-Developed a contact form to submit the user contact information. This form is validated using a captcha before submission. 
+Developed a contact form to submit the user contact information. This form is validated using a captcha before submission.
 
-### Prereqisites
+### Prerequisites
 
 1. PHP 7.3
 
@@ -14,9 +14,9 @@ Developed a contact form to submit the user contact information. This form is va
 2. Unpack the downloaded file to a document root folder.
 
 ## Rest API
-API Authentication - The API is authenticated using basicAuth & CORS. Any requests from non-registered origins and without a valid credentials will be rejected.
+API Authentication - The API is authenticated using basicAuth & CORS. Any requests from non-registered origins and without valid credentials will be rejected.
 
-### Prereqisites
+### Prerequisites
 
 1. NodeJS ~12.9.1
 
@@ -26,3 +26,4 @@ API Authentication - The API is authenticated using basicAuth & CORS. Any reques
 2. Run command 'npm install' to install all dependencies in package.json under rest-api/
 4. Run 'npm start' to start server under rest-api/
 5. Access http://localhost:3000
+

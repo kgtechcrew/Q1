@@ -14,7 +14,7 @@ Developed a contact form to submit the user contact information. This form is va
 2. Unpack the downloaded file to a document root folder.
 
 ## Rest API
-API Authentication - API store the user contact information is authenticated using basicAuth. Any requests will be rejected without a valid credentials.
+API Authentication - The API is authenticated using basicAuth & CORS. Any requests from non-registered origins and without a valid credentials will be rejected.
 
 ### Prereqisites
 

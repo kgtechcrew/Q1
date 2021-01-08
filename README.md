@@ -2,7 +2,7 @@
 
 ## Contact Form
 
-Developed a contact form to submit the user contact information. This form is validated using a captcha before submission. Used the standard captcha available PHP Yii framework.
+Developed a contact form to submit the user contact information. This form is validated using a captcha before submission. 
 
 ### Prereqisites
 

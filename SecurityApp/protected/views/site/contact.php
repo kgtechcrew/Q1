@@ -113,6 +113,7 @@ $this->breadcrumbs = array(
             xhr.addEventListener("readystatechange", function () {
                 if (this.readyState === 4) {
                     console.log(this.responseText);
+					alert("Successfully data posted to API");
                 }
             });
 
